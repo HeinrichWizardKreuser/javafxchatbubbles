@@ -1,2 +1,2 @@
-# javafx-chat-bubble
+# javafxchatbubbles
 Chat Bubble library for JavaFX

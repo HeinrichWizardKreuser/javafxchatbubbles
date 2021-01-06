@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.heinrichwizardkreuser/javafxchatbubbles/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.heinrichwizardkreuser/javafxchatbubbles)
+
 # javafxchatbubbles
 Chat Bubble library for JavaFX
 

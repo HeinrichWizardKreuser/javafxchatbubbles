@@ -5,6 +5,7 @@ import com.github.heinrichwizardkreuser.javafxchatbubbles.*;
 import javafx.application.Application;
 import javafx.scene.control.Label;
 import javafx.scene.control.SplitPane;
+import javafx.scene.paint.Color;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -23,6 +24,10 @@ public class Example extends Application {
     exampleChat.add(new Message("Finn", "What up, Jake!"));
     ChatPane chatPane = new ChatPane(exampleChat);
 
+    // let's set the colors of Finn and Jake's text bubbles
+    exampleChat.setColor("Finn", Color.web("#29D0FA")); // Blue
+    exampleChat.setColor("Jake", Color.web("FFA519")); // Orange
+
     // we can set the title of the ChatPane like so
     chatPane.setTitle("Chat with Jake");
 
@@ -40,7 +45,7 @@ public class Example extends Application {
       System.out.printf("new Message '%s' from '%s' in chat '%s'\n", 
         msg.content, msg.sender, chat.toString());
     });
-  
+
     primaryStage.setScene(new Scene(splitPane));
     primaryStage.show();
   }

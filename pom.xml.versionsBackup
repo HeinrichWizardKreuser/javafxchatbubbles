@@ -6,7 +6,7 @@
 
   <groupId>com.github.heinrichwizardkreuser</groupId>
   <artifactId>javafxchatbubbles</artifactId>
-  <version>1.0.0</version>
+  <version>1.0-SNAPSHOT</version>
 
   <name>javafxchatbubbles</name>
   <description>This is a library for implementing robut chat bubbles in javafx</description>
@@ -112,7 +112,7 @@
           </configuration>
         </plugin>
     
-        <!-- Sources Attachments -->
+        <!-- Javadoc and Sources Attachments -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
@@ -126,14 +126,9 @@
             </execution>
           </executions>
         </plugin>
-
-        <!-- Javadoc Attachments -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <configuration>
-            <source>8</source>
-          </configuration>
           <version>2.9.1</version>
           <executions>
             <execution>
